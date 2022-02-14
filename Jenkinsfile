@@ -3,7 +3,7 @@ node {
          checkout scm
      }
      stage('Build image') {
-         app = docker.build("quillel/flask-example")
+         app = docker.build("616755845023.dkr.ecr.ap-northeast-2.amazonaws.com/bar")
      }
      stage('Push image') {
          sh 'rm  ~/.dockercfg || true'
