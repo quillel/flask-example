@@ -2,5 +2,3 @@ FROM wordpress
 
 
 
-
-
